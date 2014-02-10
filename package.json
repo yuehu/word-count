@@ -1,0 +1,25 @@
+{
+  "name": "word-count",
+  "version": "0.1.0",
+  "description": "Word count in respect of CJK characters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuehu/word-count.git"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "count",
+    "word-count"
+  ],
+  "author": "Hsiaoming Yang <me@lepture.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuehu/word-count/issues"
+  }
+}

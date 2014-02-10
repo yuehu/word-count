@@ -1,0 +1,17 @@
+
+describe('word count', function() {
+  var count = require('./');
+
+  function assert(a, b) {
+    if (a !== b) {
+      throw new Error(a + ' not equal ' + b);
+    }
+  }
+
+  it('should count right', function() {
+    assert(count('this is 中文'), 4);
+    assert(count('中文is this'), 4);
+    assert(count('this中文is a 单词'), 7);
+  });
+
+});
