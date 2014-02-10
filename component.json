@@ -1,0 +1,14 @@
+{
+  "name": "word-count",
+  "repo": "yuehu/word-count",
+  "description": "Word count in respect of CJK characters.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
