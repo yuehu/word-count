@@ -14,8 +14,6 @@ describe('word count', function() {
     assert(count('سلام سلام.'), 2);
     assert(count('this لغة'), 2);
     assert(count('داد فارسی ۱۲۳۱۲۳'), 3);
-    // should not count ZWNJ as separating character
-    assert(count('می‌رود نیم‌فاصله'), 2);
   });
 
 });
