@@ -6,7 +6,7 @@
  * Copyright (c) 2014 by Hsiaoming Yang.
  */
 
-var pattern = /[a-zA-Z0-9_\u0392-\u03c9_\u0600-\u06FF]+|[\u4e00-\u9fff\u3400-\u4dbf\uf900-\ufaff\u3040-\u309f\uac00-\ud7af]+/g;
+var pattern = /[a-zA-Z0-9_\u0392-\u03c9_\u00C0-\u00FF]+|[\u4E00-\u9FFF\u3400-\u4dbf\uf900-\ufaff\u3040-\u309f\uac00-\ud7af]+/g;
 
 module.exports = function (data) {
   var m = data.match(pattern);
