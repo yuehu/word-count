@@ -31,4 +31,8 @@ describe('word count', function() {
     assert(count('داد فارسی ۱۲۳۱۲۳'), 3);
   });
 
+  it('should count 0 words', function() {
+    assert(count('"- - - - - - - - - - - - - -"'), 0);
+  });
+
 });
