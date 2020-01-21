@@ -5,6 +5,11 @@
   "main": "index.mjs",
   "module": "index.mjs",
   "type": "module",
+  "types": "index.d.ts",
+  "files": [
+    "index.mjs",
+    "index.d.ts"
+  ],
   "scripts": {
     "test": "mocha test.js"
   },
