@@ -31,6 +31,14 @@ describe('word count', function() {
     assert(count('داد فارسی ۱۲۳۱۲۳'), 3);
   });
 
+  it('should count Cyrillic and English', function() {
+    assert(count('this это'), 2);
+  });
+
+  it('should count Cyrillic 3 words', function() {
+    assert(count('три образца слова'), 3);
+  });
+
   it('should count 0 words', function() {
     assert(count('"- - - - - - - - - - - - - -"'), 0);
   });
