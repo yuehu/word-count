@@ -1,14 +1,16 @@
 {
   "name": "word-count",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Word count in respect of CJK characters.",
-  "main": "index.js",
+  "main": "index.mjs",
+  "module": "index.mjs",
+  "type": "module",
   "scripts": {
-    "test": "make test"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/yuehu/word-count.git"
+    "url": "git://github.com/lepture/word-count.git"
   },
   "devDependencies": {
     "mocha": "*"
@@ -20,6 +22,6 @@
   "author": "Hsiaoming Yang <me@lepture.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuehu/word-count/issues"
+    "url": "https://github.com/lepture/word-count/issues"
   }
 }
