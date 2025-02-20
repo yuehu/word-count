@@ -2,14 +2,20 @@
   "name": "word-count",
   "version": "0.3.0",
   "description": "Word count in respect of CJK characters.",
-  "main": "index.mjs",
+  "main": "index.cjs",
   "module": "index.mjs",
   "type": "module",
   "types": "index.d.ts",
   "files": [
+    "index.cjs",
     "index.mjs",
     "index.d.ts"
   ],
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs",
+    "types": "./index.d.ts"
+  },
   "scripts": {
     "test": "mocha test.js"
   },
