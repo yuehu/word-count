@@ -1,5 +1,6 @@
+import count from './index.mjs';
+
 describe('word count', function() {
-  var count = require('./');
 
   function assert(a, b) {
     if (a !== b) {
